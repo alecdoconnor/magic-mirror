@@ -34,6 +34,9 @@ body {
 	float: left;
 	padding: 20px;
 }
+#weatherTextHeader {
+	float: right;
+}
 </style>
 <script>
 var shortWeekDays = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
