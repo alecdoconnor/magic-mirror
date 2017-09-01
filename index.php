@@ -18,10 +18,10 @@ body {
 	padding: 0;
 }
 #time {
-	font-size: 120px;
+	font-size: 75px;
 }
 #date {
-	font-size: 60px;
+	font-size: 45px;
 }
 #weatherContainer {
 	position: fixed;
