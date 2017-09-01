@@ -74,7 +74,8 @@ function updateTime(d) {
     var hours = d.getHours()
     var minutes = d.getMinutes()
     var ampm = (hours < 12) ? "AM" : "PM"
-    hours = hours % 12
+    hours = hours % 12 
+    hours = (hours == 0) ? 12 : hours
     if (hours < 10) {
 		hours = "0" + hours
 	}
