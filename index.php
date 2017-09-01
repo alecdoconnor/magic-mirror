@@ -28,7 +28,7 @@ body {
 	top: 10px;
 	right: 10px;
 	width: 300px;
-	text-align: right;
+	text-align: justify;
 }
 #weatherImage {
 	float: right;
