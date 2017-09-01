@@ -31,7 +31,7 @@ body {
 	text-align: justify;
 }
 #weatherImage {
-	float: right;
+	float: left;
 	padding: 20px;
 }
 </style>
@@ -115,6 +115,7 @@ function getWeather() {
 <h1 id="time" class="datetime"></h1>
 <h1 id="date" class="datetime"></h2>
 </div>
+
 <div id="weatherContainer">
 <img src="" id="weatherImage" />
 <h1 id="weatherTextHeader"></h1>
